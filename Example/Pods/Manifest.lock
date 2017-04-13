@@ -1,0 +1,16 @@
+PODS:
+  - LTCustomCategorys (0.1.0)
+
+DEPENDENCIES:
+  - LTCustomCategorys (from `../`)
+
+EXTERNAL SOURCES:
+  LTCustomCategorys:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTCustomCategorys: 5c6cceb536861dc36494c1b20c75df5018be6c0d
+
+PODFILE CHECKSUM: 0c643891dbaa30fc36c1eac075f1a20a59fe83b8
+
+COCOAPODS: 1.2.0
