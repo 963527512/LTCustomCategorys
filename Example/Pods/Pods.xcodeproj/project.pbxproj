@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		119A32310C747657A5B349FADDFA4709 /* Pods-LTCustomCategorys_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E44A30DD8816DAB849BB3A3A1BFF4B09 /* Pods-LTCustomCategorys_Example-dummy.m */; };
+		126DDC0B560314485EA1797E76568172 /* UIView+LTLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 58463237E1C32282DB969B3C46620D5B /* UIView+LTLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29EB6C86C447798E864F77CC6C6DDA39 /* Pods-LTCustomCategorys_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1317B3A669D98173F676DE2394A12DF /* Pods-LTCustomCategorys_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		477CB8B473E41B1D5788900D3CFC48A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		764CE6AD5CDC66CF83B95BD06EEEB7EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8FF10C5A1360D2D743B87487749D55B8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AF398471D38C90B04691775A0EE2EBA1 /* ReplaceMe.m */; };
+		8BA5E598FD7DF99D4E40CEB0D808B3A1 /* UIView+LTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C720E8B69B40DD7532F927F8D1ED7 /* UIView+LTLayout.m */; };
 		B5AF3F5D41A6D0FDAAB03628FCB427E5 /* Pods-LTCustomCategorys_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB9EB4BBD7AEC8F3E3FBB836CF49B9 /* Pods-LTCustomCategorys_Tests-dummy.m */; };
 		B6154B5E6BDEEBEE8B9767F4FA6E575F /* Pods-LTCustomCategorys_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C69BD5F24ED8651A5BB8896BAB95D1 /* Pods-LTCustomCategorys_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEC3A2D2BD2B0DA6891756E86AD353F7 /* LTCustomCategorys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CD2892EAD818DC19C9160FD2553FC /* LTCustomCategorys-dummy.m */; };
+		B65CDE0310AEACF98676CB1912749CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		CEDE9B7E3DE8B9CA7AB1D4F1ABC463C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F6E258D4FFDFEAEF52B562321C4015D5 /* LTCustomCategorys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAF559ACD4030E3733FEFF28AB218BD /* LTCustomCategorys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E19A53944D130132F4296795342EFF25 /* LTCustomCategorys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FF7C4C1539568F6A1D2E2DFB281259 /* LTCustomCategorys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBEFC3389127E20E13EA43873EF1733D /* LTCustomCategorys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA949BAF66CBC4572B1E0825A79DB889 /* LTCustomCategorys-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C8FEE316ADF569DA79269CF346B3B6A;
+			remoteGlobalIDString = 7FC4EE265EF742BF167D82834272B498;
 			remoteInfo = LTCustomCategorys;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,8 +35,6 @@
 		0377B8F613CBFF74F467A2169A2EB514 /* Pods-LTCustomCategorys_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTCustomCategorys_Example.modulemap"; sourceTree = "<group>"; };
 		09B170D2A49582ADF80CFEE21CEF9E19 /* Pods_LTCustomCategorys_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTCustomCategorys_Example.framework; path = "Pods-LTCustomCategorys_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1107565C3E1EA0C856CD9FF17F90189C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12D3FB6712484CFDAF4952B27EA80CEC /* LTCustomCategorys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCustomCategorys-prefix.pch"; sourceTree = "<group>"; };
-		206CD2892EAD818DC19C9160FD2553FC /* LTCustomCategorys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTCustomCategorys-dummy.m"; sourceTree = "<group>"; };
 		2D0E85C4FF1248E1DDDE40F375BCA3FB /* Pods-LTCustomCategorys_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCustomCategorys_Tests-resources.sh"; sourceTree = "<group>"; };
 		331C1D99C7E4C114A5D8FC9FFAE596EE /* Pods-LTCustomCategorys_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCustomCategorys_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3BECA61BCD47E3F0180D0D24C74B1A62 /* Pods_LTCustomCategorys_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTCustomCategorys_Tests.framework; path = "Pods-LTCustomCategorys_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,23 +42,26 @@
 		404FE5EA3204626E704AFFF533565891 /* Pods-LTCustomCategorys_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTCustomCategorys_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		416DEB1639FDD94C6BC7253DE8A4F34A /* Pods-LTCustomCategorys_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCustomCategorys_Example-frameworks.sh"; sourceTree = "<group>"; };
 		41BA0E2CAC0A9E56A2C6F73FAA99D521 /* Pods-LTCustomCategorys_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTCustomCategorys_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58463237E1C32282DB969B3C46620D5B /* UIView+LTLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LTLayout.h"; sourceTree = "<group>"; };
+		5C67AF59E6E1833AD6EBD39CA9997BB9 /* LTCustomCategorys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTCustomCategorys.modulemap; sourceTree = "<group>"; };
 		6912E6C5149FE0BC99C065F90166772B /* Pods-LTCustomCategorys_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTCustomCategorys_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6AA4A9E1F09E68011A3E0D7D65ED00DB /* LTCustomCategorys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTCustomCategorys.modulemap; sourceTree = "<group>"; };
+		6B7C720E8B69B40DD7532F927F8D1ED7 /* UIView+LTLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTLayout.m"; sourceTree = "<group>"; };
 		7B3D7D4BD939A2E2CC96506E6E985DEE /* Pods-LTCustomCategorys_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCustomCategorys_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7DBA2A1711A0C6D387E0FCB582FCFD6A /* Pods-LTCustomCategorys_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTCustomCategorys_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7EAF559ACD4030E3733FEFF28AB218BD /* LTCustomCategorys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCustomCategorys-umbrella.h"; sourceTree = "<group>"; };
-		8A8B0FC6970C62C3C6F8E85EF24526B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94DD927BF9BF735514A20838AA588893 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FF7C4C1539568F6A1D2E2DFB281259 /* LTCustomCategorys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCustomCategorys-umbrella.h"; sourceTree = "<group>"; };
 		97EB9EB4BBD7AEC8F3E3FBB836CF49B9 /* Pods-LTCustomCategorys_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTCustomCategorys_Tests-dummy.m"; sourceTree = "<group>"; };
 		988D12057C316676615BD9377ABF0491 /* Pods-LTCustomCategorys_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCustomCategorys_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		99C69BD5F24ED8651A5BB8896BAB95D1 /* Pods-LTCustomCategorys_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTCustomCategorys_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9BBDC33452724E6C60AA8D89B5384BBB /* Pods-LTCustomCategorys_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTCustomCategorys_Tests.modulemap"; sourceTree = "<group>"; };
 		A5EF930DD4EF75E4F75DA201A338B713 /* Pods-LTCustomCategorys_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCustomCategorys_Example-resources.sh"; sourceTree = "<group>"; };
-		AF398471D38C90B04691775A0EE2EBA1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		C046D147AF5F5E577F8A416233B09B2A /* LTCustomCategorys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCustomCategorys-prefix.pch"; sourceTree = "<group>"; };
+		C57479AD9FF5031CBC7EECA212E4B010 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DBCC106E29FD38EE797FB04691D0137A /* LTCustomCategorys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTCustomCategorys.xcconfig; sourceTree = "<group>"; };
+		DF2A1DD112556AA5CC9A21C89364A79A /* LTCustomCategorys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTCustomCategorys.xcconfig; sourceTree = "<group>"; };
 		E44A30DD8816DAB849BB3A3A1BFF4B09 /* Pods-LTCustomCategorys_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTCustomCategorys_Example-dummy.m"; sourceTree = "<group>"; };
+		EA949BAF66CBC4572B1E0825A79DB889 /* LTCustomCategorys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTCustomCategorys-dummy.m"; sourceTree = "<group>"; };
 		F1317B3A669D98173F676DE2394A12DF /* Pods-LTCustomCategorys_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTCustomCategorys_Example-umbrella.h"; sourceTree = "<group>"; };
 		FC7DF8E8486D92518F01D0DA13CB372C /* Pods-LTCustomCategorys_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCustomCategorys_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1084D3216DFC56A895D3B423D1F74E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65CDE0310AEACF98676CB1912749CC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEF08F7BEEAB6A34FAD8F76856B806F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,17 +91,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD17ED0DDEB0E762C31AC3ABBE764A9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				477CB8B473E41B1D5788900D3CFC48A9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0521E6F02FDEB367B1D4FB47D1F43037 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E33506AB95A48E33C0ABBA77F01F7802 /* View */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		4C99BEFA1B932C861A305CB57858FD47 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,18 +112,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		529F43170C56F4986001E93C84D76B9A /* Support Files */ = {
+		6B6E8F397A8F766EDED317AA870E74D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8A8B0FC6970C62C3C6F8E85EF24526B3 /* Info.plist */,
-				6AA4A9E1F09E68011A3E0D7D65ED00DB /* LTCustomCategorys.modulemap */,
-				DBCC106E29FD38EE797FB04691D0137A /* LTCustomCategorys.xcconfig */,
-				206CD2892EAD818DC19C9160FD2553FC /* LTCustomCategorys-dummy.m */,
-				12D3FB6712484CFDAF4952B27EA80CEC /* LTCustomCategorys-prefix.pch */,
-				7EAF559ACD4030E3733FEFF28AB218BD /* LTCustomCategorys-umbrella.h */,
+				B2F4BB818A56253D94E5118F0A9F1912 /* LTCustomCategorys */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LTCustomCategorys";
+			name = View;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -121,15 +126,6 @@
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		799D962E59821CD36C26D91B9FBB0F84 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AF398471D38C90B04691775A0EE2EBA1 /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -143,10 +139,24 @@
 			);
 			sourceTree = "<group>";
 		};
+		8171AA3882C09F970C46FFC2CE9FF280 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57479AD9FF5031CBC7EECA212E4B010 /* Info.plist */,
+				5C67AF59E6E1833AD6EBD39CA9997BB9 /* LTCustomCategorys.modulemap */,
+				DF2A1DD112556AA5CC9A21C89364A79A /* LTCustomCategorys.xcconfig */,
+				EA949BAF66CBC4572B1E0825A79DB889 /* LTCustomCategorys-dummy.m */,
+				C046D147AF5F5E577F8A416233B09B2A /* LTCustomCategorys-prefix.pch */,
+				96FF7C4C1539568F6A1D2E2DFB281259 /* LTCustomCategorys-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LTCustomCategorys";
+			sourceTree = "<group>";
+		};
 		8B4F39468F9F3B99E2DBFE94E47C4DD1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F09A9E91A1E676AA08F3F3DC4DBB83AB /* LTCustomCategorys */,
+				DD07EF550A7C67B0A2FF52E2669EC6EF /* LTCustomCategorys */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -159,6 +169,15 @@
 				3BECA61BCD47E3F0180D0D24C74B1A62 /* Pods_LTCustomCategorys_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F4BB818A56253D94E5118F0A9F1912 /* LTCustomCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				0521E6F02FDEB367B1D4FB47D1F43037 /* Classes */,
+			);
+			name = LTCustomCategorys;
+			path = LTCustomCategorys;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -187,13 +206,24 @@
 			path = "Target Support Files/Pods-LTCustomCategorys_Example";
 			sourceTree = "<group>";
 		};
-		EA418789BCEB4984AB78422EDAAFC267 /* LTCustomCategorys */ = {
+		DD07EF550A7C67B0A2FF52E2669EC6EF /* LTCustomCategorys */ = {
 			isa = PBXGroup;
 			children = (
-				799D962E59821CD36C26D91B9FBB0F84 /* Classes */,
+				8171AA3882C09F970C46FFC2CE9FF280 /* Support Files */,
+				6B6E8F397A8F766EDED317AA870E74D7 /* View */,
 			);
 			name = LTCustomCategorys;
-			path = LTCustomCategorys;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E33506AB95A48E33C0ABBA77F01F7802 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58463237E1C32282DB969B3C46620D5B /* UIView+LTLayout.h */,
+				6B7C720E8B69B40DD7532F927F8D1ED7 /* UIView+LTLayout.m */,
+			);
+			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		EE20E08348F05D3D4F575B925D057013 /* Pods-LTCustomCategorys_Tests */ = {
@@ -212,16 +242,6 @@
 			);
 			name = "Pods-LTCustomCategorys_Tests";
 			path = "Target Support Files/Pods-LTCustomCategorys_Tests";
-			sourceTree = "<group>";
-		};
-		F09A9E91A1E676AA08F3F3DC4DBB83AB /* LTCustomCategorys */ = {
-			isa = PBXGroup;
-			children = (
-				EA418789BCEB4984AB78422EDAAFC267 /* LTCustomCategorys */,
-				529F43170C56F4986001E93C84D76B9A /* Support Files */,
-			);
-			name = LTCustomCategorys;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,34 +263,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8868C624F9FA25C9920E6DE438A0FF32 /* Headers */ = {
+		6A2745CD7CB64197422732E8C14E1025 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E258D4FFDFEAEF52B562321C4015D5 /* LTCustomCategorys-umbrella.h in Headers */,
+				E19A53944D130132F4296795342EFF25 /* LTCustomCategorys-umbrella.h in Headers */,
+				126DDC0B560314485EA1797E76568172 /* UIView+LTLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C8FEE316ADF569DA79269CF346B3B6A /* LTCustomCategorys */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2131A58FB922899EC599C6A0ACCB5AB3 /* Build configuration list for PBXNativeTarget "LTCustomCategorys" */;
-			buildPhases = (
-				3CE75792817599C1893BEAB580BDD12D /* Sources */,
-				CD17ED0DDEB0E762C31AC3ABBE764A9C /* Frameworks */,
-				8868C624F9FA25C9920E6DE438A0FF32 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LTCustomCategorys;
-			productName = LTCustomCategorys;
-			productReference = 3E06900A7F19921393CE4D37DE4238A1 /* LTCustomCategorys.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		0D219D1453F7BA3FF458B6F16E49270B /* Pods-LTCustomCategorys_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE972144A8654F1155CF158D26A0508B /* Build configuration list for PBXNativeTarget "Pods-LTCustomCategorys_Example" */;
@@ -287,6 +291,23 @@
 			name = "Pods-LTCustomCategorys_Example";
 			productName = "Pods-LTCustomCategorys_Example";
 			productReference = 09B170D2A49582ADF80CFEE21CEF9E19 /* Pods_LTCustomCategorys_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FC4EE265EF742BF167D82834272B498 /* LTCustomCategorys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0DEA704D1B5D4C339F9AA5BED35805 /* Build configuration list for PBXNativeTarget "LTCustomCategorys" */;
+			buildPhases = (
+				4B9BF13A477064989D5E8788D393E624 /* Sources */,
+				A1084D3216DFC56A895D3B423D1F74E1 /* Frameworks */,
+				6A2745CD7CB64197422732E8C14E1025 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTCustomCategorys;
+			productName = LTCustomCategorys;
+			productReference = 3E06900A7F19921393CE4D37DE4238A1 /* LTCustomCategorys.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91F037CBC65986090C66AED4840F7F2D /* Pods-LTCustomCategorys_Tests */ = {
@@ -327,7 +348,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C8FEE316ADF569DA79269CF346B3B6A /* LTCustomCategorys */,
+				7FC4EE265EF742BF167D82834272B498 /* LTCustomCategorys */,
 				0D219D1453F7BA3FF458B6F16E49270B /* Pods-LTCustomCategorys_Example */,
 				91F037CBC65986090C66AED4840F7F2D /* Pods-LTCustomCategorys_Tests */,
 			);
@@ -335,12 +356,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CE75792817599C1893BEAB580BDD12D /* Sources */ = {
+		4B9BF13A477064989D5E8788D393E624 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC3A2D2BD2B0DA6891756E86AD353F7 /* LTCustomCategorys-dummy.m in Sources */,
-				8FF10C5A1360D2D743B87487749D55B8 /* ReplaceMe.m in Sources */,
+				FBEFC3389127E20E13EA43873EF1733D /* LTCustomCategorys-dummy.m in Sources */,
+				8BA5E598FD7DF99D4E40CEB0D808B3A1 /* UIView+LTLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +387,7 @@
 		4CB5C59DF3BF9039F2C0F8E9D5ECB08E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LTCustomCategorys;
-			target = 0C8FEE316ADF569DA79269CF346B3B6A /* LTCustomCategorys */;
+			target = 7FC4EE265EF742BF167D82834272B498 /* LTCustomCategorys */;
 			targetProxy = 988BF8A6B2DD4464A8CCF4C4E77E7FCF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,9 +428,9 @@
 			};
 			name = Release;
 		};
-		1EB0034AEC42345BB678101506FA7709 /* Release */ = {
+		4402EDAA004CA9D3394B94623E19D7E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBCC106E29FD38EE797FB04691D0137A /* LTCustomCategorys.xcconfig */;
+			baseConfigurationReference = DF2A1DD112556AA5CC9A21C89364A79A /* LTCustomCategorys.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -592,9 +613,9 @@
 			};
 			name = Debug;
 		};
-		AB76431B018DAE382D28B0660F24CBAE /* Debug */ = {
+		DFA14708FA807397D59E3C4F206D1564 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBCC106E29FD38EE797FB04691D0137A /* LTCustomCategorys.xcconfig */;
+			baseConfigurationReference = DF2A1DD112556AA5CC9A21C89364A79A /* LTCustomCategorys.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -670,11 +691,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2131A58FB922899EC599C6A0ACCB5AB3 /* Build configuration list for PBXNativeTarget "LTCustomCategorys" */ = {
+		2C0DEA704D1B5D4C339F9AA5BED35805 /* Build configuration list for PBXNativeTarget "LTCustomCategorys" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB76431B018DAE382D28B0660F24CBAE /* Debug */,
-				1EB0034AEC42345BB678101506FA7709 /* Release */,
+				DFA14708FA807397D59E3C4F206D1564 /* Debug */,
+				4402EDAA004CA9D3394B94623E19D7E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

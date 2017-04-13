@@ -1,5 +1,7 @@
 PODS:
-  - LTCustomCategorys (0.1.0)
+  - LTCustomCategorys (0.1.0):
+    - LTCustomCategorys/View (= 0.1.0)
+  - LTCustomCategorys/View (0.1.0)
 
 DEPENDENCIES:
   - LTCustomCategorys (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LTCustomCategorys: 5c6cceb536861dc36494c1b20c75df5018be6c0d
+  LTCustomCategorys: 21ba91c5c129e408ce150ab33a974d1a5588ce38
 
 PODFILE CHECKSUM: 0c643891dbaa30fc36c1eac075f1a20a59fe83b8
 

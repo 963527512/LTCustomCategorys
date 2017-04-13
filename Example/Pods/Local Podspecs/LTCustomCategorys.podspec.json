@@ -1,22 +1,27 @@
 {
   "name": "LTCustomCategorys",
   "version": "0.1.0",
-  "summary": "A short description of LTCustomCategorys.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/963527512@qq.com/LTCustomCategorys",
+  "summary": "custom category collection",
+  "description": "'自定义分类 - 所有自定义分类的集合'",
+  "homepage": "https://github.com/963527512/LTCustomCategoryss",
   "license": {
-    "type": "MIT",
+    "type": "Apache License, Version 2.0",
     "file": "LICENSE"
   },
   "authors": {
-    "963527512@qq.com": "963527512@qq.com"
+    "冰凌天": "963527512@qq.com"
   },
   "source": {
-    "git": "https://github.com/963527512@qq.com/LTCustomCategorys.git",
+    "git": "https://github.com/963527512/LTCustomCategorys.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LTCustomCategorys/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "View",
+      "source_files": "LTCustomCategorys/Classes/View/**/*"
+    }
+  ]
 }
