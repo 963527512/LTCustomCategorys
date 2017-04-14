@@ -2,8 +2,8 @@
   "name": "LTCustomCategorys",
   "version": "0.1.0",
   "summary": "custom category collection",
-  "description": "'自定义分类 - 所有自定义分类的集合'",
-  "homepage": "https://github.com/963527512/LTCustomCategoryss",
+  "description": "'自定义分类 - 所有自定义分类的集合, 仅仅只有分类'",
+  "homepage": "https://github.com/963527512/LTCustomCategorys",
   "license": {
     "type": "Apache License, Version 2.0",
     "file": "LICENSE"
@@ -20,8 +20,12 @@
   },
   "subspecs": [
     {
-      "name": "View",
-      "source_files": "LTCustomCategorys/Classes/View/**/*"
+      "name": "UIView",
+      "source_files": "LTCustomCategorys/Classes/UIView/**/*"
+    },
+    {
+      "name": "UIColor",
+      "source_files": "LTCustomCategorys/Classes/UIColor/**/*"
     }
   ]
 }

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIColor+LTExtension.h"
 #import "UIView+LTLayout.h"
 
 FOUNDATION_EXPORT double LTCustomCategorysVersionNumber;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTCustomCategorys'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'custom category collection'
 
 # This description is used to generate tags and improve search results.
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'自定义分类 - 所有自定义分类的集合'
+'自定义分类 - 所有自定义分类的集合, 仅仅只有分类'
                        DESC
 
-  s.homepage         = 'https://github.com/963527512/LTCustomCategoryss'
+  s.homepage         = 'https://github.com/963527512/LTCustomCategorys'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.author           = { '冰凌天' => '963527512@qq.com' }
@@ -31,8 +31,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   # 布局
-    s.subspec 'View' do |s|
-    s.source_files = 'LTCustomCategorys/Classes/View/**/*'
+    s.subspec 'UIView' do |v|
+    v.source_files = 'LTCustomCategorys/Classes/UIView/**/*'
+  end
+  # 颜色
+  s.subspec 'UIColor' do |c|
+    c.source_files = 'LTCustomCategorys/Classes/UIColor/**/*'
   end
 
   # s.resource_bundles = {
