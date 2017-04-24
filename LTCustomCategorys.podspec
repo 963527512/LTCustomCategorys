@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTCustomCategorys'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'custom category collection'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
+#s.source_files = 'LTCustomCategorys/Classes/**/*'
+
   # 布局
-    s.subspec 'UIView' do |v|
+  s.subspec 'UIView' do |v|
     v.source_files = 'LTCustomCategorys/Classes/UIView/**/*'
   end
   # 颜色

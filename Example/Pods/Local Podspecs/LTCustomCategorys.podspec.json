@@ -1,6 +1,6 @@
 {
   "name": "LTCustomCategorys",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "custom category collection",
   "description": "'自定义分类 - 所有自定义分类的集合, 仅仅只有分类'",
   "homepage": "https://github.com/963527512/LTCustomCategorys",
@@ -13,19 +13,10 @@
   },
   "source": {
     "git": "https://github.com/963527512/LTCustomCategorys.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "subspecs": [
-    {
-      "name": "UIView",
-      "source_files": "LTCustomCategorys/Classes/UIView/**/*"
-    },
-    {
-      "name": "UIColor",
-      "source_files": "LTCustomCategorys/Classes/UIColor/**/*"
-    }
-  ]
+  "source_files": "LTCustomCategorys/Classes/**/*"
 }

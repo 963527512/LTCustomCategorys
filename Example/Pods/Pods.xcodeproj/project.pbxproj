@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0726473079B7157A435F469CB86DA405 /* UIView+LTLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A739090034B36BB92C43487184051FE /* UIView+LTLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		119A32310C747657A5B349FADDFA4709 /* Pods-LTCustomCategorys_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E44A30DD8816DAB849BB3A3A1BFF4B09 /* Pods-LTCustomCategorys_Example-dummy.m */; };
-		1B8AB78E857EA472761C47B9FB019924 /* LTCustomCategorys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FE7B311B6C5433921F29C43C8528F8 /* LTCustomCategorys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		125E539B814A6E25E2FA07B1B3503487 /* UIColor+LTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7718CC2AFDD551FB270D61A8466A3A9C /* UIColor+LTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B58B384851F29EB9FB6BBC6F8FA7A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		17C3DD636D5502CA385F844CDEEBEC03 /* LTCustomCategorys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CD2892EAD818DC19C9160FD2553FC /* LTCustomCategorys-dummy.m */; };
 		29EB6C86C447798E864F77CC6C6DDA39 /* Pods-LTCustomCategorys_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1317B3A669D98173F676DE2394A12DF /* Pods-LTCustomCategorys_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BA0E6BFCB52FE4326B75E1891D59FD4 /* UIColor+LTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9E827CDFAEFB22608642D0EE3C1C27 /* UIColor+LTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41BDC90A5036273BEE9C8E4F34E647F7 /* LTCustomCategorys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C03C1CC99809565723B46CBBDAC358 /* LTCustomCategorys-dummy.m */; };
-		626F017A389B8F4E1C07ABEA8FE8CA65 /* UIView+LTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F0C9992C85AE51859C89E145394B8 /* UIView+LTLayout.m */; };
 		764CE6AD5CDC66CF83B95BD06EEEB7EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8BD22D24F7D26A32576300FBF49C852D /* UIColor+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C52A9F6B15F6980AFF0B3D0590C23219 /* UIColor+LTExtension.m */; };
 		B5AF3F5D41A6D0FDAAB03628FCB427E5 /* Pods-LTCustomCategorys_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB9EB4BBD7AEC8F3E3FBB836CF49B9 /* Pods-LTCustomCategorys_Tests-dummy.m */; };
 		B6154B5E6BDEEBEE8B9767F4FA6E575F /* Pods-LTCustomCategorys_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C69BD5F24ED8651A5BB8896BAB95D1 /* Pods-LTCustomCategorys_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2100EF94951243114F17817017AB801 /* UIColor+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC7CE4511EDD205A959A930E7C7CA4B /* UIColor+LTExtension.m */; };
+		B9810E5E0B94C139CD1FA33B5ABC5ECD /* UIView+LTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DBCC487DE2331B605AA4218754C0FE /* UIView+LTLayout.m */; };
 		CEDE9B7E3DE8B9CA7AB1D4F1ABC463C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F8434D010F3BD41551E19858B489834C /* UIView+LTLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E2E9295446736CD8F1D190E33C03D5 /* UIView+LTLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD5FEFD964E6F3753C234131C529CAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E7473A021C65F4968A9AFDE780AD6153 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 2704DFF96B8F22F4874D732324D46A5F /* Foundation+Log.m */; };
+		FE51021F85BBF8ABB17BED9879013507 /* LTCustomCategorys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAF559ACD4030E3733FEFF28AB218BD /* LTCustomCategorys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +28,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B92DD1BB08A1F0127ADFD32B3D391D68;
+			remoteGlobalIDString = C0945D46E746CB8366E25098578222FC;
 			remoteInfo = LTCustomCategorys;
 		};
 /* End PBXContainerItemProxy section */
@@ -37,25 +38,24 @@
 		0377B8F613CBFF74F467A2169A2EB514 /* Pods-LTCustomCategorys_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTCustomCategorys_Example.modulemap"; sourceTree = "<group>"; };
 		09B170D2A49582ADF80CFEE21CEF9E19 /* Pods_LTCustomCategorys_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTCustomCategorys_Example.framework; path = "Pods-LTCustomCategorys_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1107565C3E1EA0C856CD9FF17F90189C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12FE7B311B6C5433921F29C43C8528F8 /* LTCustomCategorys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCustomCategorys-umbrella.h"; sourceTree = "<group>"; };
-		2A9E827CDFAEFB22608642D0EE3C1C27 /* UIColor+LTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+LTExtension.h"; sourceTree = "<group>"; };
+		12D3FB6712484CFDAF4952B27EA80CEC /* LTCustomCategorys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCustomCategorys-prefix.pch"; sourceTree = "<group>"; };
+		206CD2892EAD818DC19C9160FD2553FC /* LTCustomCategorys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTCustomCategorys-dummy.m"; sourceTree = "<group>"; };
+		2704DFF96B8F22F4874D732324D46A5F /* Foundation+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		2D0E85C4FF1248E1DDDE40F375BCA3FB /* Pods-LTCustomCategorys_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCustomCategorys_Tests-resources.sh"; sourceTree = "<group>"; };
 		331C1D99C7E4C114A5D8FC9FFAE596EE /* Pods-LTCustomCategorys_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCustomCategorys_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3B0417FDC36833403C920573978B1287 /* LTCustomCategorys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTCustomCategorys.xcconfig; sourceTree = "<group>"; };
 		3BECA61BCD47E3F0180D0D24C74B1A62 /* Pods_LTCustomCategorys_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTCustomCategorys_Tests.framework; path = "Pods-LTCustomCategorys_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E06900A7F19921393CE4D37DE4238A1 /* LTCustomCategorys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTCustomCategorys.framework; path = LTCustomCategorys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		404FE5EA3204626E704AFFF533565891 /* Pods-LTCustomCategorys_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTCustomCategorys_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		416DEB1639FDD94C6BC7253DE8A4F34A /* Pods-LTCustomCategorys_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCustomCategorys_Example-frameworks.sh"; sourceTree = "<group>"; };
 		41BA0E2CAC0A9E56A2C6F73FAA99D521 /* Pods-LTCustomCategorys_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTCustomCategorys_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43C03C1CC99809565723B46CBBDAC358 /* LTCustomCategorys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTCustomCategorys-dummy.m"; sourceTree = "<group>"; };
-		4AA8A3E981CEEDF07504FAE30A44001E /* LTCustomCategorys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCustomCategorys-prefix.pch"; sourceTree = "<group>"; };
-		4F1F0C9992C85AE51859C89E145394B8 /* UIView+LTLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTLayout.m"; sourceTree = "<group>"; };
-		502F0D6EE518CA39F658AF0272FFA506 /* LTCustomCategorys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTCustomCategorys.modulemap; sourceTree = "<group>"; };
-		5FC7CE4511EDD205A959A930E7C7CA4B /* UIColor+LTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LTExtension.m"; sourceTree = "<group>"; };
-		68E2E9295446736CD8F1D190E33C03D5 /* UIView+LTLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LTLayout.h"; sourceTree = "<group>"; };
+		5A739090034B36BB92C43487184051FE /* UIView+LTLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LTLayout.h"; sourceTree = "<group>"; };
 		6912E6C5149FE0BC99C065F90166772B /* Pods-LTCustomCategorys_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTCustomCategorys_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AA4A9E1F09E68011A3E0D7D65ED00DB /* LTCustomCategorys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTCustomCategorys.modulemap; sourceTree = "<group>"; };
+		7718CC2AFDD551FB270D61A8466A3A9C /* UIColor+LTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+LTExtension.h"; sourceTree = "<group>"; };
 		7B3D7D4BD939A2E2CC96506E6E985DEE /* Pods-LTCustomCategorys_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCustomCategorys_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7DBA2A1711A0C6D387E0FCB582FCFD6A /* Pods-LTCustomCategorys_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTCustomCategorys_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EAF559ACD4030E3733FEFF28AB218BD /* LTCustomCategorys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCustomCategorys-umbrella.h"; sourceTree = "<group>"; };
+		8A8B0FC6970C62C3C6F8E85EF24526B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94DD927BF9BF735514A20838AA588893 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97EB9EB4BBD7AEC8F3E3FBB836CF49B9 /* Pods-LTCustomCategorys_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTCustomCategorys_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -63,19 +63,21 @@
 		99C69BD5F24ED8651A5BB8896BAB95D1 /* Pods-LTCustomCategorys_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTCustomCategorys_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9BBDC33452724E6C60AA8D89B5384BBB /* Pods-LTCustomCategorys_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTCustomCategorys_Tests.modulemap"; sourceTree = "<group>"; };
 		A5EF930DD4EF75E4F75DA201A338B713 /* Pods-LTCustomCategorys_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCustomCategorys_Example-resources.sh"; sourceTree = "<group>"; };
-		B8FC3072F16550FAB60AC44BEC778D8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52A9F6B15F6980AFF0B3D0590C23219 /* UIColor+LTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LTExtension.m"; sourceTree = "<group>"; };
+		C8DBCC487DE2331B605AA4218754C0FE /* UIView+LTLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTLayout.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBCC106E29FD38EE797FB04691D0137A /* LTCustomCategorys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTCustomCategorys.xcconfig; sourceTree = "<group>"; };
 		E44A30DD8816DAB849BB3A3A1BFF4B09 /* Pods-LTCustomCategorys_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTCustomCategorys_Example-dummy.m"; sourceTree = "<group>"; };
 		F1317B3A669D98173F676DE2394A12DF /* Pods-LTCustomCategorys_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTCustomCategorys_Example-umbrella.h"; sourceTree = "<group>"; };
 		FC7DF8E8486D92518F01D0DA13CB372C /* Pods-LTCustomCategorys_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCustomCategorys_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4494DCE62189DC01D6EBC7BEE4FDD88B /* Frameworks */ = {
+		7C446236EFD1850AB710C0B61950387A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5FEFD964E6F3753C234131C529CAEA /* Foundation.framework in Frameworks */,
+				13B58B384851F29EB9FB6BBC6F8FA7A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,10 +100,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2692594BF7D5512E1D958FCF65D12C80 /* LTCustomCategorys */ = {
+		162D3C12B4F0D2F79DE7CB12A3093DA2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A8EACCB6780107ADD65AFD11AB9D9B0C /* Classes */,
+				2704DFF96B8F22F4874D732324D46A5F /* Foundation+Log.m */,
+				D42671FEF4C55C5998F5342AADAAE9C9 /* UIColor */,
+				2EC5E1406EFF97DDD1A0BCADC15F5B2F /* UIView */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2EC5E1406EFF97DDD1A0BCADC15F5B2F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				5A739090034B36BB92C43487184051FE /* UIView+LTLayout.h */,
+				C8DBCC487DE2331B605AA4218754C0FE /* UIView+LTLayout.m */,
+			);
+			name = UIView;
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		4192A10EE3D4B2CC4670DE7705268601 /* LTCustomCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				162D3C12B4F0D2F79DE7CB12A3093DA2 /* Classes */,
 			);
 			name = LTCustomCategorys;
 			path = LTCustomCategorys;
@@ -116,35 +139,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		59965617F17FFF8661C38F8729D3D399 /* UIView */ = {
+		529F43170C56F4986001E93C84D76B9A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				68E2E9295446736CD8F1D190E33C03D5 /* UIView+LTLayout.h */,
-				4F1F0C9992C85AE51859C89E145394B8 /* UIView+LTLayout.m */,
+				8A8B0FC6970C62C3C6F8E85EF24526B3 /* Info.plist */,
+				6AA4A9E1F09E68011A3E0D7D65ED00DB /* LTCustomCategorys.modulemap */,
+				DBCC106E29FD38EE797FB04691D0137A /* LTCustomCategorys.xcconfig */,
+				206CD2892EAD818DC19C9160FD2553FC /* LTCustomCategorys-dummy.m */,
+				12D3FB6712484CFDAF4952B27EA80CEC /* LTCustomCategorys-prefix.pch */,
+				7EAF559ACD4030E3733FEFF28AB218BD /* LTCustomCategorys-umbrella.h */,
 			);
-			name = UIView;
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		5B2F861215E7166544A044DDC68287FC /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				2A9E827CDFAEFB22608642D0EE3C1C27 /* UIColor+LTExtension.h */,
-				5FC7CE4511EDD205A959A930E7C7CA4B /* UIColor+LTExtension.m */,
-			);
-			name = UIColor;
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		70C5726D6ABBF1AC7ACAF5E9801DBD9C /* LTCustomCategorys */ = {
-			isa = PBXGroup;
-			children = (
-				C818297E19F9468B7ED2B3560BF22CA7 /* Support Files */,
-				DDA2C0D1EF5DBA596392A0925C94A321 /* UIColor */,
-				A10ABB0631C64F1184BD37994D3F13A2 /* UIView */,
-			);
-			name = LTCustomCategorys;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LTCustomCategorys";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -159,27 +165,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9E9523653B487DB9EA3984E6312D976E /* Development Pods */,
+				8B4F39468F9F3B99E2DBFE94E47C4DD1 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A1E1627DF0FB5EC1C036EC74DE628EF1 /* Products */,
 				4C99BEFA1B932C861A305CB57858FD47 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9E9523653B487DB9EA3984E6312D976E /* Development Pods */ = {
+		8B4F39468F9F3B99E2DBFE94E47C4DD1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				70C5726D6ABBF1AC7ACAF5E9801DBD9C /* LTCustomCategorys */,
+				F09A9E91A1E676AA08F3F3DC4DBB83AB /* LTCustomCategorys */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A10ABB0631C64F1184BD37994D3F13A2 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				FE3B2A11A69CDF5A57965633D4A35118 /* LTCustomCategorys */,
-			);
-			name = UIView;
 			sourceTree = "<group>";
 		};
 		A1E1627DF0FB5EC1C036EC74DE628EF1 /* Products */ = {
@@ -190,15 +188,6 @@
 				3BECA61BCD47E3F0180D0D24C74B1A62 /* Pods_LTCustomCategorys_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A8EACCB6780107ADD65AFD11AB9D9B0C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5B2F861215E7166544A044DDC68287FC /* UIColor */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -227,35 +216,14 @@
 			path = "Target Support Files/Pods-LTCustomCategorys_Example";
 			sourceTree = "<group>";
 		};
-		C1A49DEE480012F1E79966FA97C0B03C /* Classes */ = {
+		D42671FEF4C55C5998F5342AADAAE9C9 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				59965617F17FFF8661C38F8729D3D399 /* UIView */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C818297E19F9468B7ED2B3560BF22CA7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8FC3072F16550FAB60AC44BEC778D8D /* Info.plist */,
-				502F0D6EE518CA39F658AF0272FFA506 /* LTCustomCategorys.modulemap */,
-				3B0417FDC36833403C920573978B1287 /* LTCustomCategorys.xcconfig */,
-				43C03C1CC99809565723B46CBBDAC358 /* LTCustomCategorys-dummy.m */,
-				4AA8A3E981CEEDF07504FAE30A44001E /* LTCustomCategorys-prefix.pch */,
-				12FE7B311B6C5433921F29C43C8528F8 /* LTCustomCategorys-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LTCustomCategorys";
-			sourceTree = "<group>";
-		};
-		DDA2C0D1EF5DBA596392A0925C94A321 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				2692594BF7D5512E1D958FCF65D12C80 /* LTCustomCategorys */,
+				7718CC2AFDD551FB270D61A8466A3A9C /* UIColor+LTExtension.h */,
+				C52A9F6B15F6980AFF0B3D0590C23219 /* UIColor+LTExtension.m */,
 			);
 			name = UIColor;
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 		EE20E08348F05D3D4F575B925D057013 /* Pods-LTCustomCategorys_Tests */ = {
@@ -276,13 +244,14 @@
 			path = "Target Support Files/Pods-LTCustomCategorys_Tests";
 			sourceTree = "<group>";
 		};
-		FE3B2A11A69CDF5A57965633D4A35118 /* LTCustomCategorys */ = {
+		F09A9E91A1E676AA08F3F3DC4DBB83AB /* LTCustomCategorys */ = {
 			isa = PBXGroup;
 			children = (
-				C1A49DEE480012F1E79966FA97C0B03C /* Classes */,
+				4192A10EE3D4B2CC4670DE7705268601 /* LTCustomCategorys */,
+				529F43170C56F4986001E93C84D76B9A /* Support Files */,
 			);
 			name = LTCustomCategorys;
-			path = LTCustomCategorys;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,21 +265,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46667DA3EA962F13BA83D17C8B3C79BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE51021F85BBF8ABB17BED9879013507 /* LTCustomCategorys-umbrella.h in Headers */,
+				125E539B814A6E25E2FA07B1B3503487 /* UIColor+LTExtension.h in Headers */,
+				0726473079B7157A435F469CB86DA405 /* UIView+LTLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		559C3BB6378CBBA36564D3FD571452DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				29EB6C86C447798E864F77CC6C6DDA39 /* Pods-LTCustomCategorys_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA78128BCE63D6FE28D48599C04B8CF2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B8AB78E857EA472761C47B9FB019924 /* LTCustomCategorys-umbrella.h in Headers */,
-				3BA0E6BFCB52FE4326B75E1891D59FD4 /* UIColor+LTExtension.h in Headers */,
-				F8434D010F3BD41551E19858B489834C /* UIView+LTLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,13 +321,13 @@
 			productReference = 3BECA61BCD47E3F0180D0D24C74B1A62 /* Pods_LTCustomCategorys_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B92DD1BB08A1F0127ADFD32B3D391D68 /* LTCustomCategorys */ = {
+		C0945D46E746CB8366E25098578222FC /* LTCustomCategorys */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8723A64FFCDA8ED297AC0CF649EEA2E0 /* Build configuration list for PBXNativeTarget "LTCustomCategorys" */;
+			buildConfigurationList = 45A83A91DCAADEEAC05FE394E7D5FA92 /* Build configuration list for PBXNativeTarget "LTCustomCategorys" */;
 			buildPhases = (
-				CED0AFF7D05A50605CF2CA2E26732385 /* Sources */,
-				4494DCE62189DC01D6EBC7BEE4FDD88B /* Frameworks */,
-				EA78128BCE63D6FE28D48599C04B8CF2 /* Headers */,
+				450A5E219FC08C321680E5F6D3419625 /* Sources */,
+				7C446236EFD1850AB710C0B61950387A /* Frameworks */,
+				46667DA3EA962F13BA83D17C8B3C79BE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -390,7 +359,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B92DD1BB08A1F0127ADFD32B3D391D68 /* LTCustomCategorys */,
+				C0945D46E746CB8366E25098578222FC /* LTCustomCategorys */,
 				0D219D1453F7BA3FF458B6F16E49270B /* Pods-LTCustomCategorys_Example */,
 				91F037CBC65986090C66AED4840F7F2D /* Pods-LTCustomCategorys_Tests */,
 			);
@@ -398,6 +367,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		450A5E219FC08C321680E5F6D3419625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7473A021C65F4968A9AFDE780AD6153 /* Foundation+Log.m in Sources */,
+				17C3DD636D5502CA385F844CDEEBEC03 /* LTCustomCategorys-dummy.m in Sources */,
+				8BD22D24F7D26A32576300FBF49C852D /* UIColor+LTExtension.m in Sources */,
+				B9810E5E0B94C139CD1FA33B5ABC5ECD /* UIView+LTLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EA3078696D2E14BCA224EDA95B6992F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,23 +394,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CED0AFF7D05A50605CF2CA2E26732385 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41BDC90A5036273BEE9C8E4F34E647F7 /* LTCustomCategorys-dummy.m in Sources */,
-				C2100EF94951243114F17817017AB801 /* UIColor+LTExtension.m in Sources */,
-				626F017A389B8F4E1C07ABEA8FE8CA65 /* UIView+LTLayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		4CB5C59DF3BF9039F2C0F8E9D5ECB08E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LTCustomCategorys;
-			target = B92DD1BB08A1F0127ADFD32B3D391D68 /* LTCustomCategorys */;
+			target = C0945D46E746CB8366E25098578222FC /* LTCustomCategorys */;
 			targetProxy = 988BF8A6B2DD4464A8CCF4C4E77E7FCF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -470,68 +440,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		37EE29CB8DA04DE7EABD484AA42A83F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B0417FDC36833403C920573978B1287 /* LTCustomCategorys.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LTCustomCategorys/LTCustomCategorys-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LTCustomCategorys/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LTCustomCategorys/LTCustomCategorys.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LTCustomCategorys;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4D5504FCC21346F6E71B18C687A751D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B0417FDC36833403C920573978B1287 /* LTCustomCategorys.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LTCustomCategorys/LTCustomCategorys-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LTCustomCategorys/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LTCustomCategorys/LTCustomCategorys.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LTCustomCategorys;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4EC2DE33B8B47984AA0460A5CE23DD7F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -687,6 +595,68 @@
 			};
 			name = Debug;
 		};
+		C5CFF19152BAA23C71D7844A884FA647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCC106E29FD38EE797FB04691D0137A /* LTCustomCategorys.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTCustomCategorys/LTCustomCategorys-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTCustomCategorys/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTCustomCategorys/LTCustomCategorys.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LTCustomCategorys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB76DF2BA57935B6FADBBD70E6D22DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCC106E29FD38EE797FB04691D0137A /* LTCustomCategorys.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTCustomCategorys/LTCustomCategorys-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTCustomCategorys/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTCustomCategorys/LTCustomCategorys.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LTCustomCategorys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FF40738DB445697B098531692183B0F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC7DF8E8486D92518F01D0DA13CB372C /* Pods-LTCustomCategorys_Tests.debug.xcconfig */;
@@ -743,11 +713,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8723A64FFCDA8ED297AC0CF649EEA2E0 /* Build configuration list for PBXNativeTarget "LTCustomCategorys" */ = {
+		45A83A91DCAADEEAC05FE394E7D5FA92 /* Build configuration list for PBXNativeTarget "LTCustomCategorys" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D5504FCC21346F6E71B18C687A751D5 /* Debug */,
-				37EE29CB8DA04DE7EABD484AA42A83F7 /* Release */,
+				C5CFF19152BAA23C71D7844A884FA647 /* Debug */,
+				FB76DF2BA57935B6FADBBD70E6D22DC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
