@@ -1,5 +1,11 @@
 PODS:
-  - LTCustomCategorys (0.2.0)
+  - LTCustomCategorys (0.3.0):
+    - LTCustomCategorys/Log (= 0.3.0)
+    - LTCustomCategorys/UIColor (= 0.3.0)
+    - LTCustomCategorys/UIView (= 0.3.0)
+  - LTCustomCategorys/Log (0.3.0)
+  - LTCustomCategorys/UIColor (0.3.0)
+  - LTCustomCategorys/UIView (0.3.0)
 
 DEPENDENCIES:
   - LTCustomCategorys (from `../`)
@@ -9,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LTCustomCategorys: ed58b7d4f3a7cc701091dcebb0050483857bd7b5
+  LTCustomCategorys: f5219068920781adc30c1459cdff73b6a7d3c5cb
 
 PODFILE CHECKSUM: 0c643891dbaa30fc36c1eac075f1a20a59fe83b8
 
